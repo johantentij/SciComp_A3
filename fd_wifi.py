@@ -73,7 +73,7 @@ def solve_wifi_optimized():
     X, Y = np.meshgrid(np.linspace(0, Lx, nx), np.linspace(0, Ly, ny))
 
     f_hz = 0.8e9
-    k0, wall_n, t_half = 2 * np.pi * f_hz / 3e8, 2.5 + 0.5j, 0.075
+    k0, wall_n, t_half = 2 * np.pi * f_hz / 3e8, 3*(2.5 + 0.5j), 0.075
     cx, cy = 1.0 / dx ** 2, 1.0 / dy ** 2
 
     # --- WALL MASKS ---
