@@ -32,9 +32,7 @@ pip install -r requirements.txt
 ### Figure reproduction:
 The figures in the report are produced by the various python files as such:
 <ul>
-  <li>Figure 1: solver_fd.py</li>
-  <li>Figure 2: solver_fem.py</li>
-  <li>Figure 3: solver_lbm.py</li>
+  <li>Figure 1, 2, 3: compare_re_100.py</li>
   <li>Figure 4: fd_wifi.py with res=60 (line 70)</li>
   <li>Figure 5: fd_wifi.py with f_hz=2.4e9 (line 75)</li>
   <li>Table 1: compare_re_100.py</li>
