@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Numba cache
+__numba_cache__/
+
+# Output images and videos
+*.jpg
+*.mp4
+*.gif
+*.avi
+
+# Data files
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NGSolve mesh files
+*.vol
+*.vol.gz
+*.mesh
